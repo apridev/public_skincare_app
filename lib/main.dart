@@ -6,6 +6,7 @@ import 'package:public_skincare_app/home/profile_page.dart';
 import 'package:public_skincare_app/home/wishlist_page.dart';
 import 'package:public_skincare_app/pages/login_page.dart';
 import 'package:public_skincare_app/pages/onboarding.dart';
+import 'package:public_skincare_app/pages/product_page.dart';
 import 'package:public_skincare_app/pages/register_page.dart';
 
 void main() {
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         '/explore_page' : (context) => ExplorePage(),
         '/profile_page' : (context) => ProfilePage(),
         '/wishlist_page' : (context) => WishlistPage(),
+        '/product_page' : (context) => ProductPage(),
       },
     );
   }
