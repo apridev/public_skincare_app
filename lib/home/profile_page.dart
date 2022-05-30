@@ -81,7 +81,9 @@ class ProfilePage extends StatelessWidget {
                       borderRadius: BorderRadius.circular(24),
                       color: primaryColor),
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/edit_profile');
+                    },
                     child: Text(
                       'Edit Profil',
                       style: subPrimaryTextStyle3.copyWith(
