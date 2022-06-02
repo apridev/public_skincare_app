@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:public_skincare_app/template.dart';
+import 'package:public_skincare_app/widget/expanded_tile.dart';
 
 class ProductPage extends StatelessWidget {
   @override
@@ -221,7 +222,9 @@ class ProductPage extends StatelessWidget {
                         ),
                         Container(
                           margin: EdgeInsets.only(top: 12),
-                          child: Text("Protect the skin you're in with this reef-safe, non-nano, coated zinc oxide-based sunscreen that offers sheer, long-lasting, and broad-spectrum coverage. Lightweight UVA/UVB mineral protection. Oleosome protected zinc... Read more", style: searchTextStyle.copyWith(fontSize: 12, fontWeight: medium),),
+                          child: Expanded(
+                            child: Expandedtile(text: "Protect the skin you're in with this reef-safe, non-nano, coated zinc oxide-based sunscreen that offers sheer, long-lasting, and broad-spectrum coverage. Lightweight UVA/UVB mineral protection. Oleosome protected zinc. Protect the skin you're in with this reef-safe, non-nano, coated zinc oxide-based sunscreen that offers sheer, long-lasting, and broad-spectrum coverage. Lightweight UVA/UVB mineral protection. Oleosome protected zinc",)
+                          ),
                         ),
                       ],
                     ),
