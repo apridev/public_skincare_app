@@ -189,6 +189,7 @@ class _LoginPageState extends State<LoginPage> {
     }
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
         body: SafeArea(
       child: Container(
         constraints: BoxConstraints.expand(),
