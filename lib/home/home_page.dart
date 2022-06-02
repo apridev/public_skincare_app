@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
             EdgeInsets.only(left: defaultMargin, right: defaultMargin, top: 24),
         child: TextField(
           cursorColor: primaryColor,
-          style: const TextStyle(fontSize: 14),
+          style: const TextStyle(fontSize: 16),
           textInputAction: TextInputAction.search,
           onSubmitted: (value) {
             print("Search");
@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
               color: searchColor,
             ),
             hintText: "Search for skincare",
-            hintStyle: searchTextStyle.copyWith(fontSize: 14),
+            hintStyle: searchTextStyle.copyWith(fontSize: 16),
           ),
         ),
       );
